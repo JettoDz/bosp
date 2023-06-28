@@ -1,4 +1,4 @@
-#(a) Bunch Of Small Programs
+# (a) Bunch Of Small Programs
 
 `bosp` is a small portal of utilities for developers that would otherwise need to create on their own or use (and trust) fromsomeone else.
 
@@ -9,4 +9,4 @@ It uses the [WONDERFUL SvelteKit framework](https://kit.svelte.dev) and, alongsi
 After all,
 
 > ***Simplicity is a prerequisite for reliability***
-Edsger Djikstra.
+> Edsger Djikstra.
