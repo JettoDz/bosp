@@ -1,38 +1,12 @@
-# create-svelte
+#(a) Bunch Of Small Programs
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+`bosp` is a small portal of utilities for developers that would otherwise need to create on their own or use (and trust) fromsomeone else.
 
-## Creating a project
+What's the difference to having a bunch of tabs? That this toolkit is free to fork from Github so you can change whaterver you want: from removing tools to just changing the font style. It is designed to be used as is or to be modified at pleasure, growing to the needs.
 
-If you're seeing this, you've probably already done this step. Congrats!
+It uses the [WONDERFUL SvelteKit framework](https://kit.svelte.dev) and, alongside their own vision for the project, pretends to be as minimal in code as possible.
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+After all,
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+> ***Simplicity is a prerequisite for reliability***
+Edsger Djikstra.
