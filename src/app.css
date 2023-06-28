@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Open+Sans&family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Mono:wght@300&display=swap');
+
+body {
+    --bg-main: rgb(40, 41, 40);
+    --fg-main: rgb(224, 224, 224);
+    --accent-1: rgb(76, 149, 108);
+    --accent-2: rgb(254, 142, 72);
+    --bg-focus: rgb(71, 72, 71);
+    --fg-subtle: rgb(153, 153, 153);
+    --raleway: 'Raleway', sans-serif;
+    --cinzel: 'Cinzel Decorative', cursive;
+    --mono: 'Red Hat Mono', monospace;
+    background-color: var(--bg-main);
+    color: var(--fg-main);
+    font-family: var(--raleway);
+}
+
+.header {
+    width: 100%;
+    display: inline-flex;
+}
+
+.title {
+    font-family: var(--raleway);
+    display: flex;
+    position: relative;
+    color: var(--accent-1);
+    font-size: 2.5rem;
+    z-index: 2;
+    padding: 0.1em 0.5em;
+}
+
+.title a {
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+nav {
+    background-color: var(--accent-1);
+    position: relative;
+    display: flex;
+    gap: 1.5em;
+    padding: 1em;
+    z-index: 2;
+    margin: 0 0 1em 0;
+    border-radius: 0.3rem 0 0 0.3em;
+    width: 100%;
+
+    & a {
+        color: var(--bg-main);
+        text-decoration: none;
+        font-weight: bolder;
+        font-size: large;
+    }
+}
+
+a {
+    color: var(--accent-2);
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+input {
+    border-radius: 0.3rem;
+    background-color: var(--fg-main);
+}
+
+.navitem {
+    display: flex;
+}
+
+.page {
+    padding: 0em 5em;
+}
+
+.work-card {
+    margin: 1rem 3rem;
+    padding: 0.1% 2%;
+    border-radius: 0.4rem;
+    box-shadow: 0pt 0pt 3px var(--fg-subtle);
+}
+
+.codeblock {
+    background-color: var(--bg-focus);
+    font-family: var(--mono)
+}
+
+.quote {
+    background-color: var(--bg-focus);
+    font-family: var(--raleway);
+    font-style: italic;
+}
