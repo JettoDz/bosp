@@ -2,6 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Mono:wght@300&display=swap');
 
+html {
+    height: 100%;
+}
+
 body {
     --bg-main: rgb(40, 41, 40);
     --fg-main: rgb(224, 224, 224);
@@ -15,11 +19,22 @@ body {
     background-color: var(--bg-main);
     color: var(--fg-main);
     font-family: var(--raleway);
+    margin: 0;
+    height: 100%;
+}
+
+.content {
+    height: 100%;
 }
 
 .header {
     width: 100%;
     display: inline-flex;
+    padding: 0.5em 0 0 0;
+}
+
+main {
+    height: 90%;
 }
 
 .title {
@@ -68,7 +83,7 @@ a {
     }
 }
 
-input {
+input, textarea {
     border-radius: 0.3rem;
     background-color: var(--fg-main);
 }
@@ -78,7 +93,10 @@ input {
 }
 
 .page {
+    display: flex;
+    flex-direction: column;
     padding: 0em 5em;
+    height: 100%;
 }
 
 .work-card {
@@ -97,4 +115,15 @@ input {
     background-color: var(--bg-focus);
     font-family: var(--raleway);
     font-style: italic;
+}
+
+button {
+    padding: 10px;
+    background-color: var(--accent-2);
+    font-weight: bolder;
+    border-radius: .4rem;
+
+    &:hover {
+        cursor: pointer;;
+    }
 }

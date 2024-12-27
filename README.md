@@ -10,3 +10,9 @@ After all,
 
 > ***Simplicity is a prerequisite for reliability***
 > Edsger Djikstra.
+
+Since I had no real time (or ideas, tbh) to continue this project, I forgot a lot about it. So now that I have things I want to keep at hand, making this project useful again, I will continue it little by little.
+
+First things first: Node 12+ is required. I'm using Node 22 as its the current alive version. 
+
+There are some error the linter is throwing, but so far I've yet to see any actual error. I will also try to work on making some sort of framework to implement stuff easier, but as of now the page + brains concept is working, so that's that.
